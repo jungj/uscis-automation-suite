@@ -1,0 +1,16 @@
+# --- Sensitive Google Workspace IDs ---
+# These are unique to your firm and should never be public
+config.json
+credentials.json
+client_secret.json
+
+# --- System & Temporary Files ---
+.DS_Store
+Thumbs.db
+*.log
+tmp/
+
+# --- Personal Documentation ---
+# Prevents internal office notes from being uploaded
+private_notes.txt
+TODO.txt
